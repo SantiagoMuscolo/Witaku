@@ -1,0 +1,479 @@
+
+*{
+    text-decoration: none;
+    align-items: center;
+    text-align: center;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+main{
+    text-align: center;
+    margin: 0 auto;
+}
+.Logo{
+    width: 50px;
+}
+.navegation{
+    color: white;
+display: flex; 
+align-items: center;
+background-color: black; 
+width: 100%;
+} 
+.div1{
+    display: flex;
+    align-items: center;
+}
+.div1 ul, li{
+    display: flex;
+    margin: 10px;
+    font-weight: bold;
+}
+h2{
+    display: inline;
+}
+.ul1{
+    list-style: none;
+    display: inline;
+}
+
+.cursor{
+    cursor: pointer;
+}
+
+.characters img{
+    width: 10%;
+    border: 1px solid black;
+}
+.body{
+    background-image: url(https://img.freepik.com/vector-gratis/coleccion-nubes-dibujos-animados_23-2149006445.jpg?w=1380&t=st=1663798339~exp=1663798939~hmac=977d2e4dd0c1cbac172786ddfba1e7286a5dec728b654b2261c688e1519a76ab);
+    background-repeat: repeat;
+    display: grid;
+    grid-template-areas:"nav nav nav"
+                        "main main main"
+                        "footer footer footer";
+    grid-template-columns: 30% auto auto;
+    grid-template-rows: auto auto auto;
+}
+.navegationOnePiece{
+    color: black;
+display: flex; 
+align-items: center;
+background-color: white; 
+width: 100%;
+}
+.navegationOnePiece a{
+    color: black;
+}
+#main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 5% auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    line-height: 40px;
+    background-color: lightblue;
+    border: 1px solid black;
+    width: 80%;
+    font-size: 1rem;
+}
+main section img{
+    width: 600px;
+}
+.logoOP{
+    width: 40%;
+}
+.iframeOp{
+    width: 40%;
+}
+.imagen img{
+    width: 20%;
+}
+span{
+    color: white;
+}
+.aboutOnePiece h2{
+    border: 1px solid black;
+    background-color: white;
+}
+.featuredOnePiece img{
+width: 250px;
+}
+.featuredOnePiece h2{
+    border: 1px solid black;
+    background: white;
+}
+.recommendations h3{
+    text-decoration: none;
+    margin: 5% auto;
+    border: 0.1rem solid black;
+    background-color: white; 
+}
+.recommendations img{
+    width: 15%;
+}
+.navegationTokyoGhoul{
+    color: white;
+display: flex; 
+align-items: center;
+background-color: black; 
+width: 100%;
+}
+.navegationTokyoGhoul a{
+    color: white;
+}
+.logoTk{
+    width: 50%;
+}
+.bodyTokyoGhoul{
+    background-image: url(https://i.redd.it/qg8cwtnyuqxz.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display: grid;
+    grid-template-areas:"nav nav nav"
+                        "main main main"
+                        "footer footer footer";
+    grid-template-columns: 30% auto auto;
+    grid-template-rows: auto auto auto;
+}
+#mainTokyoGhoul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    text-align: center;
+    margin: 100px auto;
+    line-height: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    line-height: 40px;
+    background-color: grey;
+    border: 1px solid black;
+    width: 80%;
+    font-size: 1rem;
+}
+.iframeTk{
+    width: 40%;
+}
+.introductionTokyoGhoul img{
+    width: 50%;
+}
+.aboutTokyoGhoul h2{
+    border: 1px solid black;
+    background-color: white;
+    font-size: 1rem
+}
+.featuredTokyoGhoul h2{
+border: 1px solid black;
+background-color: white;
+font-size: 1rem;
+}
+.featuredTokyoGhoul div{
+    margin: 0 auto;
+/* border: 0.1rem solid black; */
+width: 60%;
+}
+.featuredTokyoGhoul img{
+    width: 80%;
+}
+.recommendationsTokyoGhoul img{
+    width: 200px;
+}
+.recommendationsTokyoGhoul h2{
+    margin: 40px auto;
+    border: 1px solid black;
+    background-color: white;
+}
+.backgroundNaruto{
+    background-image: url(https://preview.redd.it/gfjv18qcqcx61.png?width=1920&format=png&auto=webp&s=1b1cbb4472620329ddbb63842c2ec451d246e94a);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display: grid;
+    grid-template-areas:"nav nav nav"
+                        "main main main"
+                        "footer footer footer";
+    grid-template-columns: 30% auto auto;
+    grid-template-rows: auto auto auto;
+}
+.navegationNaruto{
+    border: 1px solid black;
+    color: black;
+    display: flex; 
+    align-items: center;
+    background-color: white; 
+    width: 100%;
+}
+.navegationNaruto a{
+    color: black;
+}
+#mainNaruto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    text-align: center;
+    margin: 50px auto;
+    line-height: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    background-color: grey;
+    border: 0.1rem solid black;
+    width: 80%;
+    font-size: 1rem;
+}
+.narutoLogo img{
+    width: 50%;
+}
+.narutoLogo iframe{
+    width: 50%;
+}
+.narutoIntroduction img{
+width: 50%;
+}
+.whatIsNaruto h3{
+    text-decoration: none;
+    margin: auto;
+    align-items: center;
+    border: 1px solid black;
+    background-color: white;
+    width: 40%;
+}
+.whatIsNaruto p{
+    font-size: 1rem;
+}
+.featuredNaruto h2{
+    border: 1px solid black;
+    background-color: white;
+}
+.featuredNaruto img{
+    width: 50%;
+}
+.featuredNaruto div{
+    margin: auto;
+    width: 50%;
+}
+.bodyBlackClover{
+        background-image: url(https://images-ext-2.discordapp.net/external/gE4wTXSg6O7hw02cr0A5-IozqY77JR_0dLnYLPaVWU0/%3Fcb%3D20200914201633%26path-prefix%3Des/https/static.wikia.nocookie.net/blackclover/images/5/50/Wiki-background/revision/latest);
+        background-repeat: repeat;
+        display: grid;
+    grid-template-areas:"nav nav nav"
+                        "main main main"
+                        "footer footer footer";
+    grid-template-columns: 30% auto auto;
+    grid-template-rows: auto auto auto;
+}
+.navegationBlackClover{
+    display: flex;
+    border: 1px solid black;
+    background-color: black;
+    color: white;
+    align-items: center;
+}
+.navegationBlackClover a{
+    color: white;
+}
+
+#mainBlackClover{ 
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    line-height: 30px;
+    background-color: grey;
+    border: 1px solid black;
+    width: 80%;
+    font-size: 1rem;
+}
+.introductionBlackClover iframe{
+    width: 40%;
+}
+.introductionBlackClover img{
+    width: 40%;
+}
+.aboutBlackClover h3{
+margin: auto;
+align-items: center;
+border: 1px solid black;
+background-color: white;
+width: 50%;
+}
+.featuredArticleBlackClover{
+    margin: auto;
+    width: 60%;
+}
+.featuredArticleBlackClover h2{
+    margin: auto;
+    width: 40%;
+    background-color: white;
+}
+.featuredArticleBlackClover img{
+    width: 50%;
+}
+.navegationIndex{
+    color: white;
+    display: flex; 
+    /* align-items: center; */
+    background-color: black; 
+    width: 100%;
+}
+.navegationIndex a{
+    color: white;
+}
+.asideNavegationIndex{
+    display: flex;
+    border: 1px solid white;
+    justify-content: flex-end;
+    align-items: center;
+}
+.asideNavegationIndex i{
+    color: white;
+    margin: 5px;
+    width: 50px;
+}
+/* .asideNavegation{
+    display: flex;
+} */
+.backgroundIndex{
+    background-image: url(https://3.bp.blogspot.com/-g31_rqzTK6Y/XIkaFZH8zNI/AAAAAAAAAgo/TxT0I8EQ4asm0D39LHwDPVOof7FiyeSVACKgBGAs/w919/sky-city-scenery-horizon-landscape-anime-uhdpaper.com-8K-131.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display: grid;
+    grid-template-areas:"nav nav nav"
+                        "main main main"
+                        "footer footer footer";
+    grid-template-columns: 30% auto auto;
+    grid-template-rows: auto auto auto;
+}
+#mainIndex{
+    display: flex;
+    flex-direction: column;
+    margin-top: 3%;
+    line-height: 2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    background-color: grey;
+    width: 90%;
+    border: 0.1rem solid black;
+    font-size: 1rem;
+    
+}
+.introductionIndex div{ 
+    margin-top: 40px;
+}
+.introductionIndex iframe{
+    width: 40%;
+}
+main h1{
+    margin: 3% auto;
+    border: 0.1rem solid black;
+    background-color: white;
+    width: 20%;
+    font-size: 1rem;
+}
+.summary{
+    border: 0.1rem solid black;
+    width: 25%;
+    margin-left: 10%;
+    font-size: 0.8rem;
+}
+.summaryIndex{
+    margin-top: 5%;
+}
+.etimology__h2 h2{
+    border: 0.1rem solid black;
+    background-color: white;
+    width: 20%;
+}
+.summaryIndex h4{
+    display: flex;
+}
+.summaryIndex ol, h3{ 
+    list-style-type: decimal;
+    text-decoration: underline;
+}
+.summaryIndex div{
+    margin-top: 5%;
+}
+.summaryIndex li{
+    font-size: 0.5rem;
+}
+footer {
+    width: 100%;
+    background: #000000;
+    margin-top:1%;
+    color: #ffff;
+    text-align: center;
+}
+nav ul li:hover{
+    background-color: red;
+    cursor: pointer;
+}
+nav h2{
+    cursor: pointer;
+}
+header{
+    display: grid;
+    grid-area: nav;
+}
+main{
+    display: grid;
+    grid-area: main;
+}
+footer{
+    display: grid;
+    grid-area: footer;
+}
+.scale img:hover{
+    transform: scale(1.5,1.5);
+    cursor: pointer;
+}
+@media screen and (max-width: 1024px){
+    main{
+        font-size: 1rem
+    }
+    main h2{
+        font-size: 1rem
+    }
+    .recommendations h3{
+        font-size: 1rem
+    }
+    .recommendations img{
+        width: 20%
+    }
+    };
+
+@media screen and (max-width: 720px){
+    main{
+        font-size: 1rem;
+    }
+    main h2{
+        font-size: 1rem;
+    }
+    .recommendations h3{
+        font-size: 0.8rem
+    }
+    .recommendations img{
+        width: 20%
+    }
+}
+@media screen and (max-width: 400px){
+    main p{
+        font-size: 0.8rem;
+    }
+    main h2{
+        font: 0.8rem;
+    }
+    .recommendations h3{
+        font-size: 0.7rem
+    }
+    .recommendations img{
+        width: 20%
+    }
+}

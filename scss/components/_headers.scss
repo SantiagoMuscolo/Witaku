@@ -1,0 +1,122 @@
+.Logo {
+    width: 50px;
+}
+.div1{
+    display: flex;
+        ul{
+            display: flex;
+            margin-top: 4%;
+                li {
+                    display: flex;
+                    margin: 10px;
+                    font-weight: bold;
+                }   
+        }
+}
+.navegationOnePiece {
+    display: flex;
+    align-items: center;
+    background-color: $light;
+    width: 100%;
+    a{
+        text-decoration: none;
+            h2 {
+                display: inline;
+                color: $dark;
+            }
+    }      
+    ul{ 
+        li{ 
+            a{
+                color: $dark;
+                text-decoration: none;
+            }
+        }
+    }
+}
+.navegationTokyoGhoul {
+    color: $light;
+    display: flex;
+    align-items: center;
+    background-color: $dark;
+    width: 100%;
+    a{
+        text-decoration: none;
+            h2 {
+                display: inline;
+                color: $light;
+            }
+    }   
+    ul{ 
+        li{ 
+            a{
+                color: $light;
+                text-decoration: none;
+            }
+        }
+    }
+}
+.navegationNaruto {
+    color: $dark;
+    display: flex;
+    align-items: center;
+    background-color: $light;
+    width: 100%;
+    a{
+        text-decoration: none;
+            h2 {
+                display: inline;
+                color: $dark;
+            }
+    }   
+    ul{ 
+        li{ 
+            a{
+                color: $dark;
+                text-decoration: none;
+            }
+        }
+    }
+}
+.navegationBlackClover {
+    display: flex;
+    background-color: $dark;
+    color: $light;
+    align-items: center;
+    a{
+        text-decoration: none;
+            h2 {
+                display: inline;
+                color: $light;
+            }
+    }   
+    ul{ 
+        li{ 
+            a{
+                color: $light;
+                text-decoration: none;
+            }
+        }
+    }
+}
+.navegationIndex {
+    color: $light;
+    display: flex;
+    background-color: $dark;
+    width: 100%;
+    a{
+        text-decoration: none;
+            h2 {
+                display: inline;
+                color: $light;
+            }
+    }   
+    ul{ 
+        li{ 
+            a{
+                color: $light;
+                text-decoration: none;
+            }
+        }
+    }
+}

@@ -1,8 +1,7 @@
 footer{
-    width: 100%;
+    @include align-width-flex;
     padding-bottom: 1%;
     padding-top: 2%;
-    background: $dark;
-    color: $light;
-    text-align: center;
+    background: map-get($paleta_de_colores,dark_b);
+    color: map-get($paleta_de_colores,light_w);
 }

@@ -1,3 +1,28 @@
-$dark: black;
-$light: white;
-$cloud: grey;
+$paleta_de_colores:(
+    dark_b: black,
+    light_w: white,
+    cloud: grey,
+    light_blue: lightblue,
+    red_r: red
+);
+
+@mixin align-width-flex {
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+@mixin align-flex-text-font-size-line-direction-decoration {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 1rem;
+    line-height: 2rem;
+    flex-direction: column;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+@mixin border-decoration {
+    border: 0.1rem solid black;
+    text-decoration: none;
+}

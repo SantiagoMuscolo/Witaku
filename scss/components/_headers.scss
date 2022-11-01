@@ -14,107 +14,99 @@
         }
 }
 .navegationOnePiece {
-    display: flex;
-    align-items: center;
-    background-color: $light;
-    width: 100%;
+    @include align-width-flex;
+    background-color: map-get($paleta_de_colores,light_w);
     a{
         text-decoration: none;
             h2 {
                 display: inline;
-                color: $dark;
+                color: map-get($paleta_de_colores,dark_b);
             }
     }      
     ul{ 
         li{ 
             a{
-                color: $dark;
+                color: map-get($paleta_de_colores,dark_b);
                 text-decoration: none;
             }
         }
     }
 }
 .navegationTokyoGhoul {
-    color: $light;
-    display: flex;
-    align-items: center;
-    background-color: $dark;
-    width: 100%;
+    color: map-get($paleta_de_colores,light_w);
+    @include align-width-flex;
+    background-color: map-get($paleta_de_colores,dark_b);
     a{
         text-decoration: none;
             h2 {
                 display: inline;
-                color: $light;
+                color: map-get($paleta_de_colores,light_w);
             }
     }   
     ul{ 
         li{ 
             a{
-                color: $light;
+                color: map-get($paleta_de_colores,light_w);
                 text-decoration: none;
             }
         }
     }
 }
 .navegationNaruto {
-    color: $dark;
-    display: flex;
-    align-items: center;
-    background-color: $light;
-    width: 100%;
+    color: map-get($paleta_de_colores,dark_b);
+    @include align-width-flex;
+    background-color: map-get($paleta_de_colores,light_w);
     a{
         text-decoration: none;
             h2 {
                 display: inline;
-                color: $dark;
+                color: map-get($paleta_de_colores,dark_b);
             }
     }   
     ul{ 
         li{ 
             a{
-                color: $dark;
+                color: map-get($paleta_de_colores,dark_b);
                 text-decoration: none;
             }
         }
     }
 }
 .navegationBlackClover {
-    display: flex;
-    background-color: $dark;
-    color: $light;
-    align-items: center;
+    @include align-width-flex;
+    background-color: map-get($paleta_de_colores,dark_b);
+    color: map-get($paleta_de_colores,light_w);
     a{
         text-decoration: none;
             h2 {
                 display: inline;
-                color: $light;
+                color: map-get($paleta_de_colores,light_w);
             }
     }   
     ul{ 
         li{ 
             a{
-                color: $light;
+                color: map-get($paleta_de_colores,light_w);
                 text-decoration: none;
             }
         }
     }
 }
 .navegationIndex {
-    color: $light;
-    display: flex;
-    background-color: $dark;
-    width: 100%;
+    color: map-get($paleta_de_colores,light_w);
+    @include align-width-flex;
+    background-color: map-get($paleta_de_colores,dark_b);
     a{
         text-decoration: none;
             h2 {
                 display: inline;
-                color: $light;
+                color: map-get($paleta_de_colores,light_w);
             }
     }   
     ul{ 
         li{ 
             a{
-                color: $light;
+                color: map-get($paleta_de_colores,light_w);
                 text-decoration: none;
             }
         }

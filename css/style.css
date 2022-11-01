@@ -1,641 +1,500 @@
 * {
-    text-decoration: none;
-    align-items: center;
-    text-align: center;
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
+  text-decoration: none;
+  align-items: center;
+  text-align: center;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
 
 .Logo {
-    width: 50px;
-}
+  width: 50px; }
 
 .div1 {
+  display: flex; }
+  .div1 ul {
     display: flex;
-}
-
-.div1 ul {
-    display: flex;
-    margin-top: 4%;
-}
-
-.div1 ul li {
-    display: flex;
-    margin: 10px;
-    font-weight: bold;
-}
+    margin-top: 4%; }
+    .div1 ul li {
+      display: flex;
+      margin: 10px;
+      font-weight: bold; }
 
 .navegationOnePiece {
-    display: flex;
-    align-items: center;
-    background-color: white;
-    width: 100%;
-}
-
-.navegationOnePiece a {
-    text-decoration: none;
-}
-
-.navegationOnePiece a h2 {
-    display: inline;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  background-color: white; }
+  .navegationOnePiece a {
+    text-decoration: none; }
+    .navegationOnePiece a h2 {
+      display: inline;
+      color: black; }
+  .navegationOnePiece ul li a {
     color: black;
-}
-
-.navegationOnePiece ul li a {
-    color: black;
-    text-decoration: none;
-}
+    text-decoration: none; }
 
 .navegationTokyoGhoul {
+  color: white;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  background-color: black; }
+  .navegationTokyoGhoul a {
+    text-decoration: none; }
+    .navegationTokyoGhoul a h2 {
+      display: inline;
+      color: white; }
+  .navegationTokyoGhoul ul li a {
     color: white;
-    display: flex;
-    align-items: center;
-    background-color: black;
-    width: 100%;
-}
-
-.navegationTokyoGhoul a {
-    text-decoration: none;
-}
-
-.navegationTokyoGhoul a h2 {
-    display: inline;
-    color: white;
-}
-
-.navegationTokyoGhoul ul li a {
-    color: white;
-    text-decoration: none;
-}
+    text-decoration: none; }
 
 .navegationNaruto {
+  color: black;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  background-color: white; }
+  .navegationNaruto a {
+    text-decoration: none; }
+    .navegationNaruto a h2 {
+      display: inline;
+      color: black; }
+  .navegationNaruto ul li a {
     color: black;
-    display: flex;
-    align-items: center;
-    background-color: white;
-    width: 100%;
-}
-
-.navegationNaruto a {
-    text-decoration: none;
-}
-
-.navegationNaruto a h2 {
-    display: inline;
-    color: black;
-}
-
-.navegationNaruto ul li a {
-    color: black;
-    text-decoration: none;
-}
+    text-decoration: none; }
 
 .navegationBlackClover {
-    display: flex;
-    background-color: black;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  background-color: black;
+  color: white; }
+  .navegationBlackClover a {
+    text-decoration: none; }
+    .navegationBlackClover a h2 {
+      display: inline;
+      color: white; }
+  .navegationBlackClover ul li a {
     color: white;
-    align-items: center;
-}
-
-.navegationBlackClover a {
-    text-decoration: none;
-}
-
-.navegationBlackClover a h2 {
-    display: inline;
-    color: white;
-}
-
-.navegationBlackClover ul li a {
-    color: white;
-    text-decoration: none;
-}
+    text-decoration: none; }
 
 .navegationIndex {
+  color: white;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  background-color: black; }
+  .navegationIndex a {
+    text-decoration: none; }
+    .navegationIndex a h2 {
+      display: inline;
+      color: white; }
+  .navegationIndex ul li a {
     color: white;
-    display: flex;
-    background-color: black;
-    width: 100%;
-}
-
-.navegationIndex a {
-    text-decoration: none;
-}
-
-.navegationIndex a h2 {
-    display: inline;
-    color: white;
-}
-
-.navegationIndex ul li a {
-    color: white;
-    text-decoration: none;
-}
+    text-decoration: none; }
 
 footer {
-    width: 100%;
-    padding-bottom: 1%;
-    padding-top: 2%;
-    background: black;
-    color: white;
-    text-align: center;
-}
+  display: flex;
+  width: 100%;
+  align-items: center;
+  padding-bottom: 1%;
+  padding-top: 2%;
+  background: black;
+  color: white; }
 
 .body {
-    background-image: url(https://img.freepik.com/vector-gratis/coleccion-nubes-dibujos-animados_23-2149006445.jpg?w=1380&t=st=1663798339~exp=1663798939~hmac=977d2e4dd0c1cbac172786ddfba1e7286a5dec728b654b2261c688e1519a76ab);
-    background-repeat: repeat;
-}
+  background-image: url(https://img.freepik.com/vector-gratis/coleccion-nubes-dibujos-animados_23-2149006445.jpg?w=1380&t=st=1663798339~exp=1663798939~hmac=977d2e4dd0c1cbac172786ddfba1e7286a5dec728b654b2261c688e1519a76ab);
+  background-repeat: repeat; }
 
 .backgroundNaruto {
-    background-image: url(https://preview.redd.it/gfjv18qcqcx61.png?width=1920&format=png&auto=webp&s=1b1cbb4472620329ddbb63842c2ec451d246e94a);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-}
+  background-image: url(https://preview.redd.it/gfjv18qcqcx61.png?width=1920&format=png&auto=webp&s=1b1cbb4472620329ddbb63842c2ec451d246e94a);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed; }
 
 .bodyBlackClover {
-    background-image: url(https://images-ext-2.discordapp.net/external/gE4wTXSg6O7hw02cr0A5-IozqY77JR_0dLnYLPaVWU0/%3Fcb%3D20200914201633%26path-prefix%3Des/https/static.wikia.nocookie.net/blackclover/images/5/50/Wiki-background/revision/latest);
-    background-repeat: repeat;
-}
+  background-image: url(https://images-ext-2.discordapp.net/external/gE4wTXSg6O7hw02cr0A5-IozqY77JR_0dLnYLPaVWU0/%3Fcb%3D20200914201633%26path-prefix%3Des/https/static.wikia.nocookie.net/blackclover/images/5/50/Wiki-background/revision/latest);
+  background-repeat: repeat; }
 
 .backgroundIndex {
-    background-image: url(https://3.bp.blogspot.com/-g31_rqzTK6Y/XIkaFZH8zNI/AAAAAAAAAgo/TxT0I8EQ4asm0D39LHwDPVOof7FiyeSVACKgBGAs/w919/sky-city-scenery-horizon-landscape-anime-uhdpaper.com-8K-131.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-}
+  background-image: url(https://3.bp.blogspot.com/-g31_rqzTK6Y/XIkaFZH8zNI/AAAAAAAAAgo/TxT0I8EQ4asm0D39LHwDPVOof7FiyeSVACKgBGAs/w919/sky-city-scenery-horizon-landscape-anime-uhdpaper.com-8K-131.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed; }
 
 .bodyTokyoGhoul {
-    background-image: url(https://i.redd.it/qg8cwtnyuqxz.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-}
+  background-image: url(https://i.redd.it/qg8cwtnyuqxz.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed; }
 
 .recommendations img {
-    width: 15%;
-}
+  width: 15%; }
 
 .logoTk {
-    width: 50%;
-}
+  width: 50%; }
 
 .logoOP {
-    width: 40%;
-}
+  width: 40%; }
 
 .narutoLogo img {
-    width: 50%;
-}
+  width: 50%; }
 
 .characters img {
-    width: 10%;
-    margin-top: 1%;
-    border: 1px solid black;
-}
-
-.cursor {
-    cursor: pointer;
-}
-
-.scale {
-    margin-top: 3%;
-}
+  width: 10%;
+  margin-top: 1%;
+  border: 0.1rem solid black;
+  text-decoration: none; }
 
 .scale img:hover {
-    transform: scale(1.5, 1.5);
-    cursor: pointer;
-}
+  transform: scale(1.5, 1.5);
+  cursor: pointer; }
 
 .carousel {
-    width: 70%;
-    margin: 0 auto;
-}
+  width: 70%;
+  margin: 0 auto; }
 
 .featuredArticleBlackClover img {
-    width: 50%;
-}
+  width: 50%; }
 
 .introductionBlackClover img {
-    width: 40%;
-}
+  width: 40%; }
 
 .featuredNaruto img {
-    width: 50%;
-}
+  width: 50%; }
 
 .narutoIntroduction img {
-    width: 50%;
-}
+  width: 50%; }
 
 .featuredTokyoGhoul img {
-    width: 80%;
-}
+  width: 80%; }
 
 .introductionTokyoGhoul img {
-    width: 50%;
-}
+  width: 50%; }
 
 .featuredOnePiece img {
-    width: 250px;
-}
+  width: 20%; }
 
 .imagen img {
-    width: 20%;
-}
-
-main section img {
-    width: 600px;
-}
+  width: 20%; }
 
 .featuredTokyoGhoul div {
-    margin: 0 auto;
-    width: 60%;
-}
+  margin: 0 auto;
+  width: 60%; }
 
 .featuredNaruto div {
-    margin: auto;
-    width: 50%;
-}
+  margin: auto;
+  width: 50%; }
 
 .featuredArticleBlackClover {
-    margin: auto;
-    width: 60%;
-}
+  margin: auto;
+  width: 60%; }
 
 .narutoIntroduction img {
-    width: 40%;
-}
+  width: 40%; }
 
 .BlackCloverIntroduction img {
-    width: 30%;
-}
+  width: 30%; }
 
 @media screen and (max-width: 1024px) {
-    main {
-        font-size: 1rem;
-    }
-
-    main h2 {
-        font-size: 1rem;
-    }
-
-    .recommendations h3 {
-        font-size: 1rem;
-    }
-
-    .recommendations img {
-        width: 20%;
-    }
-}
+  main {
+    font-size: 1rem; }
+  main h2 {
+    font-size: 1rem; }
+  .recommendations h3 {
+    font-size: 1rem; }
+  .recommendations img {
+    width: 20%; } }
 
 @media screen and (max-width: 720px) {
-    main {
-        font-size: 1rem;
-    }
-
-    main h2 {
-        font-size: 1rem;
-    }
-
-    .recommendations h3 {
-        font-size: 0.8rem;
-    }
-
-    .recommendations img {
-        width: 20%;
-    }
-}
+  main {
+    font-size: 1rem; }
+  main h2 {
+    font-size: 1rem; }
+  .recommendations h3 {
+    font-size: 0.8rem; }
+  .recommendations img {
+    width: 20%; } }
 
 @media screen and (max-width: 400px) {
-    main p {
-        font-size: 0.8rem;
-    }
-
-    main h2 {
-        font: 0.8rem;
-    }
-
-    .recommendations h3 {
-        font-size: 0.7rem;
-    }
-
-    .recommendations img {
-        width: 20%;
-    }
-}
+  main p {
+    font-size: 0.8rem; }
+  main h2 {
+    font: 0.8rem; }
+  .recommendations h3 {
+    font-size: 0.7rem; }
+  .recommendations img {
+    width: 20%; } }
 
 .narutoLogo iframe {
-    width: 50%;
-}
+  width: 40%; }
 
 .introductionIndex iframe {
-    width: 40%;
-}
+  width: 40%; }
 
 .introductionBlackClover iframe {
-    width: 40%;
-}
+  width: 40%; }
 
 .iframeOp {
-    width: 40%;
-}
+  width: 40%; }
 
 .iframeTk {
-    width: 40%;
-}
+  width: 40%; }
 
 nav h2 {
-    cursor: pointer;
-    text-decoration: none;
-}
+  cursor: pointer;
+  text-decoration: none; }
 
 nav ul li:hover {
-    background-color: red;
-    cursor: pointer;
-}
+  background-color: red;
+  cursor: pointer; }
 
 #main {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    margin: 5% auto;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: bold;
-    line-height: 40px;
-    background-color: lightblue;
-    border: 1px solid black;
-    width: 80%;
-    font-size: 1rem;
-}
+  margin: 5% auto;
+  background-color: lightblue;
+  border: 1px solid black;
+  width: 80%;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: 1rem;
+  line-height: 2rem;
+  flex-direction: column;
+  text-decoration: none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif; }
 
 #mainTokyoGhoul {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-decoration: none;
-    text-align: center;
-    margin: 100px auto;
-    line-height: 40px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: bold;
-    line-height: 40px;
-    background-color: grey;
-    border: 1px solid black;
-    width: 80%;
-    font-size: 1rem;
-}
+  margin: 100px auto;
+  background-color: grey;
+  border: 1px solid black;
+  width: 80%;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: 1rem;
+  line-height: 2rem;
+  flex-direction: column;
+  text-decoration: none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif; }
 
 #mainNaruto {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-decoration: none;
-    text-align: center;
-    margin: 50px auto;
-    line-height: 40px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: bold;
-    background-color: grey;
-    border: 0.1rem solid black;
-    width: 80%;
-    font-size: 1rem;
-}
+  margin: 50px auto;
+  background-color: grey;
+  border: 0.1rem solid black;
+  width: 80%;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: 1rem;
+  line-height: 2rem;
+  flex-direction: column;
+  text-decoration: none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif; }
 
 #mainBlackClover {
-    margin: 20px auto;
-    display: flex;
-    flex-direction: column;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: bold;
-    line-height: 30px;
-    background-color: grey;
-    border: 1px solid black;
-    width: 80%;
-    font-size: 1rem;
-}
+  margin: 20px auto;
+  background-color: grey;
+  border: 1px solid black;
+  width: 80%;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: 1rem;
+  line-height: 2rem;
+  flex-direction: column;
+  text-decoration: none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif; }
 
 #mainIndex {
-    display: flex;
-    margin-left: 5%;
-    margin-bottom: 3%;
-    flex-direction: column;
-    margin-top: 3%;
-    line-height: 2rem;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: bold;
-    background-color: grey;
-    width: 90%;
-    border: 0.1rem solid black;
-    font-size: 1rem;
-}
+  margin-left: 5%;
+  margin-bottom: 3%;
+  margin-top: 3%;
+  background-color: grey;
+  width: 90%;
+  border: 0.1rem solid black;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: 1rem;
+  line-height: 2rem;
+  flex-direction: column;
+  text-decoration: none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif; }
 
 .etimology__h2 h2 {
-    border: 0.1rem solid black;
-    background-color: white;
-    width: 20%;
-    margin: 0 auto;
-}
+  border: 0.1rem solid black;
+  text-decoration: none;
+  width: 20%;
+  margin: 0 auto; }
 
 .introduction h1 {
-    width: 40%;
-}
+  width: 40%; }
 
 main h1 {
-    margin: 3% auto;
-    border: 0.1rem solid black;
-    background-color: white;
-    width: 20%;
-    font-size: 1rem;
-}
+  margin: 3% auto;
+  border: 0.1rem solid black;
+  text-decoration: none;
+  background-color: white;
+  width: 20%;
+  font-size: 1rem; }
 
 .aboutBlackClover h3 {
-    margin: 3% auto;
-    align-items: center;
-    border: 1px solid black;
-    background-color: white;
-    width: 50%;
-}
+  margin: 3% auto;
+  align-items: center;
+  border: 0.1rem solid black;
+  text-decoration: none;
+  background-color: white;
+  width: 50%; }
 
 .featuredArticleBlackClover h2 {
-    margin: auto;
-    width: 40%;
-    background-color: white;
-}
+  margin: auto;
+  width: 40%;
+  background-color: white;
+  border: 0.1rem solid black;
+  text-decoration: none; }
 
 .whatIsNaruto p {
-    font-size: 1rem;
-}
+  font-size: 1rem; }
 
 .featuredNaruto h2 {
-    border: 1px solid black;
-    background-color: white;
-}
+  border: 0.1rem solid black;
+  text-decoration: none;
+  background-color: white; }
 
 .whatIsNaruto h3 {
-    text-decoration: none;
-    margin: auto;
-    align-items: center;
-    border: 1px solid black;
-    background-color: white;
-    width: 40%;
-}
+  margin: auto;
+  align-items: center;
+  border: 0.1rem solid black;
+  text-decoration: none;
+  background-color: white;
+  width: 40%; }
 
 .recommendationsTokyoGhoul h2 {
-    margin: 40px auto;
-    border: 1px solid black;
-    background-color: white;
-}
+  margin: 40px auto;
+  border: 0.1rem solid black;
+  text-decoration: none;
+  background-color: white; }
 
 .aboutTokyoGhoul h2 {
-    border: 1px solid black;
-    background-color: white;
-    font-size: 1.5rem;
-}
+  border: 0.1rem solid black;
+  text-decoration: none;
+  background-color: white;
+  font-size: 1.5rem; }
 
 .featuredTokyoGhoul h2 {
-    border: 1px solid black;
-    background-color: white;
-    font-size: 2rem;
-}
+  border: 0.1rem solid black;
+  text-decoration: none;
+  background-color: white;
+  font-size: 2rem; }
 
 span {
-    color: white;
-}
+  color: white; }
 
 .aboutOnePiece h2 {
-    border: 1px solid black;
-    background-color: white;
-}
+  border: 0.1rem solid black;
+  text-decoration: none;
+  background-color: white; }
 
 .featuredOnePiece h2 {
-    border: 1px solid black;
-    background: white;
-}
+  border: 0.1rem solid black;
+  text-decoration: none;
+  background: white; }
 
 .recommendations h3 {
-    text-decoration: none;
-    margin: 5% auto;
-    border: 0.1rem solid black;
-    background-color: white;
-}
+  margin: 5% auto;
+  border: 0.1rem solid black;
+  text-decoration: none;
+  background-color: white; }
 
 .summaryIndex h4 {
-    display: flex;
-}
+  display: flex; }
 
 .summaryIndex ol,
 h3 {
-    list-style-type: decimal;
-    text-decoration: underline;
-}
+  list-style-type: decimal;
+  text-decoration: underline; }
 
 .summaryIndex div {
-    margin-top: 5%;
-}
+  margin-top: 5%; }
 
 .summaryIndex li {
-    font-size: 0.5rem;
-}
+  font-size: 0.5rem; }
 
 .summary {
-    border: 0.1rem solid black;
-    width: 25%;
-    margin-left: 10%;
-    font-size: 0.8rem;
-}
+  border: 0.1rem solid black;
+  text-decoration: none;
+  width: 25%;
+  margin-left: 10%;
+  font-size: 1rem; }
 
 .summaryIndex {
-    margin-top: 5%;
-}
+  margin-top: 5%; }
 
 .aboutOnePiece {
-    margin-top: 3%;
-}
+  margin-top: 3%; }
 
 #sectionsTokyoGhoul {
-    margin-top: 3%;
-}
+  margin-top: 3%; }
 
 .aboutTokyoGhoul {
-    margin-top: 3%;
-}
+  margin-top: 3%; }
 
 #sectionsNaruto {
-    margin-top: 3%;
-}
+  margin-top: 3%; }
 
 .whatIsNaruto {
-    margin-top: 3%;
-}
+  margin-top: 3%; }
 
 #sectionsBlackClover {
-    margin-top: 3%;
-}
+  margin-top: 3%; }
 
 .introductionIndex div {
-    margin-top: 40px;
-}
+  margin-top: 3%; }
 
 .body {
-    display: grid;
-    grid-template-areas: "nav nav nav"
-        "main main main"
-        "footer footer footer";
-    grid-template-columns: 30% auto auto;
-    grid-template-rows: auto auto auto;
-}
+  display: grid;
+  grid-template-areas: "nav nav nav" "main main main" "footer footer footer";
+  grid-template-columns: 30% auto auto;
+  grid-template-rows: auto auto auto; }
 
 .bodyTokyoGhoul {
-    background-attachment: fixed;
-    display: grid;
-    grid-template-areas: "nav nav nav"
-        "main main main"
-        "footer footer footer";
-    grid-template-columns: 30% auto auto;
-    grid-template-rows: auto auto auto;
-}
+  background-attachment: fixed;
+  display: grid;
+  grid-template-areas: "nav nav nav" "main main main" "footer footer footer";
+  grid-template-columns: 30% auto auto;
+  grid-template-rows: auto auto auto; }
 
 .backgroundNaruto {
-    display: grid;
-    grid-template-areas: "nav nav nav"
-        "main main main"
-        "footer footer footer";
-    grid-template-columns: 30% auto auto;
-    grid-template-rows: auto auto auto;
-}
+  display: grid;
+  grid-template-areas: "nav nav nav" "main main main" "footer footer footer";
+  grid-template-columns: 30% auto auto;
+  grid-template-rows: auto auto auto; }
 
 .bodyBlackClover {
-    display: grid;
-    grid-template-areas: "nav nav nav"
-        "main main main"
-        "footer footer footer";
-    grid-template-columns: 30% auto auto;
-    grid-template-rows: auto auto auto;
-}
+  display: grid;
+  grid-template-areas: "nav nav nav" "main main main" "footer footer footer";
+  grid-template-columns: 30% auto auto;
+  grid-template-rows: auto auto auto; }
 
 .backgroundIndex {
-    display: grid;
-    grid-template-areas: "nav nav nav"
-        "main main main"
-        "footer footer footer";
-    grid-template-columns: 30% auto auto;
-    grid-template-rows: auto auto auto;
-}
+  display: grid;
+  grid-template-areas: "nav nav nav" "main main main" "footer footer footer";
+  grid-template-columns: 30% auto auto;
+  grid-template-rows: auto auto auto; }
 
 header {
-    display: grid;
-    grid-area: nav;
-}
+  display: grid;
+  grid-area: nav; }
 
 main {
-    display: grid;
-    grid-area: main;
-}
+  display: grid;
+  grid-area: main; }
 
 footer {
-    display: grid;
-    grid-area: footer;
-}
+  display: grid;
+  grid-area: footer; }

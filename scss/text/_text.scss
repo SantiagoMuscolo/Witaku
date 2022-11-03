@@ -41,7 +41,6 @@
 }
 
 .etimology__h2 h2 {
-    @include border-decoration;
     background-color: map-get($paleta_de_colores,light_W);
     width: 20%;
     margin: 0 auto;
